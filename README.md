@@ -29,7 +29,7 @@ Endpoints:
 GET /gg/getcodes
 ```  
 Получить гифку  
-(пример ответа: https://api.giphy.com/v1/gifs/random?api_key=R4DaQAgkZAVHt8At21gcVjGshLrHeThw&tag=rich):
+(пример ответа: https://api.giphy.com/v1/gifs/random?api_key=MiFF8wwl0NPNcBrmc7myDJkVkytDoXju&tag=rich):
 ```
 GET /gg/getgif/{Char Code}
 ```  
@@ -53,9 +53,9 @@ docker run -p 8080:8080 gif_giver_image:gg
 ``` 
 Или получить образ с DockerHub:  
 ```
-docker pull morozovroman/gif_giver:latest 
+docker pull nosikoff/gif_giver:latest 
 ```
 Запуск: 
 ``` 
-docker run -p 8080:8080 --name gifgiver morozovroman/gif_giver:latest
+docker run -p 8080:8080 --name gifgiver nosikoff/gif_giver:latest
 ```

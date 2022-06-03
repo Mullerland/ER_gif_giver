@@ -14,7 +14,7 @@ java {
 }
 
 version = '0.0.1'
-mainClassName = 'morozov.ru.MainClass'
+mainClassName = 'MainClass'
 
 task copyJarToRoot {
     doLast {

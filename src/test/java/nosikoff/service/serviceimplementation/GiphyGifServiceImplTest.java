@@ -20,7 +20,7 @@ import static org.mockito.ArgumentMatchers.anyString;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-@ComponentScan("morozov.ru")
+@ComponentScan("nosikoff")
 public class GiphyGifServiceImplTest {
 
     @Autowired
